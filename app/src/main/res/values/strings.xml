@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ReadIt</string>
+    <string name="ga_tracking_id">UA–80588341–1</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_script_editor">Script Editor</string>
+    <string name="title_activity_script_player">Script Player</string>
+    <string name="script">Script</string>
+    <string name="title">Title</string>
+    <string name="search">Search</string>
+    <string name="app_label">ReadIt</string>
+    <string name="search_hint">Search in your collection</string>
+    <string name="action_search">Search in the scripts</string>
+    <string name="menu_play">Play</string>
+    <string name="title_activity_vertical_slideshow">VerticalSlideshow</string>
+    <string name="sample_script">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem "</string>
+    <string name="play_pause">Play pause</string>
+    <string name="action">Action</string>
+    <string name="edit_script">Edit Script</string>
+    <string name="edit_saved_script">Edit Saved Script</string>
+    <string name="add_new_script">Add New Script</string>
+    <string name="display_script">display script on script player</string>
+    <string name="error_script_player">An unexpected error has ocurred</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="no_data_available">There are no scripts in your collection</string>
+    <string name="empty_match_list">There are no scripts in your collection.</string>
+    <string name="title_widget_detail">My ReadIt Script Collection</string>
+    <string name="my_script_collection">My Script Collection</string>
+    <string name="my_scripts">My Scripts</string>
+</resources>

@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ReadItAlias'
+            keyPassword 'myFirstAppPassword'
+            storeFile file('C:/Users/keystores/android.jks')
+            storePassword 'myFirstAppStorePassword'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        applicationId "com.example.randall.readit"
+        minSdkVersion 21
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.google.android.gms:play-services:9.6.1'
+    compile 'io.reactivex:rxjava:1.0.14'
+    compile 'io.reactivex:rxjava-math:1.0.0'
+    compile 'com.google.android.gms:play-services-analytics:9.6.1'
+    apply plugin: 'com.google.gms.google-services'
+    apt 'net.simonvt.schematic:schematic-compiler:0.6.7'
+    compile 'net.simonvt.schematic:schematic:0.6.7'
+}

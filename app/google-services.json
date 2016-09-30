@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "948955386768",
+    "project_id": "firebase-readit"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948955386768:android:fb3757e9b4a056ff",
+        "android_client_info": {
+          "package_name": "com.example.randall.readit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcXufi3MdmTC74fUOuQ_hBR-sejTfptxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-80588341-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
